@@ -1,0 +1,48 @@
+
+## Mission Overview
+
+The mission of this laboratory activity is to become familiar with the basic concepts of cloud computing and to develop practical skills in using Linux commands and Git Bash. This activity also introduces the use of GitHub for creating and documenting a cloud computing portfolio.
+
+## Objectives
+
+- Understand the basic concepts of cloud computing.
+- Become familiar with the Linux command line.
+- Practice creating directories and files using Git Bash.
+- Learn how to initialize and manage a Git repository.
+- Organize laboratory outputs using GitHub.
+- Document the commands and activities performed during the laboratory.
+
+## Activities Performed
+
+During this laboratory activity, I performed the following activities:
+
+1. Created the `CCM101-esenen` project directory.
+2. Created the `Laboratory-01-Welcome-to-the-Cloud` folder.
+3. Created the required Markdown files.
+4. Created the `screenshots` folder.
+5. Initialized a Git repository.
+6. Added files to the Git staging area.
+7. Created a Git commit.
+8. Renamed the Git branch to `main`.
+9. Documented the laboratory activities and outputs.
+
+## Linux Commands Used
+
+| Command | Purpose |
+|---|---|
+| `mkdir` | Creates a directory or folder. |
+| `mkdir -p` | Creates directories including necessary parent directories. |
+| `cd` | Changes the current directory. |
+| `pwd` | Displays the current working directory. |
+| `touch` | Creates a new empty file. |
+| `ls` | Lists files and directories. |
+| `find` | Displays files and directories inside a location. |
+| `git init` | Initializes a new Git repository. |
+| `git add .` | Adds files to the Git staging area. |
+| `git status` | Shows the current status of the Git repository. |
+| `git commit` | Saves staged changes to the Git repository. |
+| `git branch -M main` | Renames the current branch to `main`. |
+
+## Skills Learned
+
+Through this laboratory activity, I learned how to navigate directories using Git Bash, create folders and files using Linux commands, and manage files through Git. I also learned the basic process of initializing a repository, staging files, creating commits, and organizing a project for GitHub.
