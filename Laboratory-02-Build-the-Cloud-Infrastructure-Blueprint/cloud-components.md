@@ -1,4 +1,4 @@
-# Checkpoint 3 – Cloud Infrastructure Components
+# Cloud Infrastructure Components
 
 ## 1. Compute Resources
 
