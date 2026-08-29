@@ -54,11 +54,11 @@ Service page: https://cloud.google.com/run
 
 ### Three Advantages
 
-Advanced data analytics and AI capabilities – Google Cloud provides strong services for large-scale analytics, machine learning, and AI workloads.
+1. Advanced data analytics and AI capabilities – Google Cloud provides strong services for large-scale analytics, machine learning, and AI workloads.
 
-Global infrastructure and networking – Organizations can use Google's worldwide infrastructure and network to support distributed applications.
+2. Global infrastructure and networking – Organizations can use Google's worldwide infrastructure and network to support distributed applications.
 
-Multicloud and open-source support – Google Cloud supports technologies such as Kubernetes and can be used in hybrid and multicloud architectures.
+3. Multicloud and open-source support – Google Cloud supports technologies such as Kubernetes and can be used in hybrid and multicloud architectures.
 
 ### Typical Enterprise Use Cases
 
