@@ -25,7 +25,7 @@ Recommended Cloud Platform: Amazon Web Services (AWS)
 AWS is a strong choice for a global e-commerce company because it has extensive global infrastructure and services designed for high availability and automatic scaling. The company can deploy applications across multiple regions and availability zones to improve reliability for customers worldwide. AWS also provides tools that automatically adjust computing resources based on traffic and demand. Useful services include **Amazon EC2, Elastic Load Balancing, Amazon EC2 Auto Scaling, Amazon CloudFront, and Amazon RDS**.
 
 
-## Checkpoint 6 – Multi-Cloud Decision Matrix
+### Multi-Cloud Decision Matrix
 
 | Business Requirement        | Recommended Platform        | Justification                                                                                                                                                     |
 | --------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
