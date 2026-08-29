@@ -23,6 +23,7 @@ https://cloud.google.com/about/locations
 The Google Cloud console is a web-based graphical interface for managing Google Cloud projects and resources. It can be used to create, deploy, scale, and monitor infrastructure and applications. Administrators can also manage IAM policies, billing accounts, and governance activities.
 
 Official console: https://console.cloud.google.com/
+
 Official documentation: https://docs.cloud.google.com/docs/get-started/interact-with-resources
 
  ### Four Core Services
