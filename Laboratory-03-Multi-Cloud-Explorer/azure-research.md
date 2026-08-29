@@ -1,12 +1,12 @@
-Amazon Web Services
+**Amazon Web Services**
 
-Brief Overview
+**Brief Overview**
 
 Amazon Web Services (AWS) is a cloud computing platform that provides a broad collection of services for computing, storage, databases, networking, analytics, security, and application development. AWS supports organizations ranging from startups to large enterprises and government agencies.
 
 Official website: https://aws.amazon.com/
 
-Global Infrastructure
+**Global Infrastructure**
 
 AWS organizes its global infrastructure around Regions and Availability Zones (AZs). A Region is a separate geographic area, while Availability Zones are isolated locations within a Region. Each AWS Region is designed with multiple physically separated AZs connected through high-bandwidth, low-latency networking.
 
@@ -20,14 +20,14 @@ https://aws.amazon.com/about-aws/global-infrastructure/
 
 https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions-availability-zones.html
 
-Cloud Management Console
+**Cloud Management Console**
 
 The AWS Management Console is a secure, web-based interface used to access and manage AWS services and resources. Users can search for services, launch resources, monitor service usage, manage billing, view account information, and customize the Console Home dashboard with widgets.
 
 Official console: https://console.aws.amazon.com/
 Console documentation: https://docs.aws.amazon.com/awsconsolehelpdocs/
 
-Four Core Services
+**Four Core Services**
 
 1. Amazon EC2 (Elastic Compute Cloud)
 
@@ -53,18 +53,24 @@ AWS Lambda is a serverless computing service that runs code in response to event
 
 Service page: https://aws.amazon.com/lambda/
 
-Three Advantages
+**Three Advantages**
 
 1. Global scalability and availability – AWS provides infrastructure across multiple geographic regions and Availability Zones, allowing organizations to design resilient and scalable applications.
 2. Broad service selection – AWS offers services for computing, storage, databases, analytics, security, artificial intelligence, and more.
 3. Enterprise security and flexibility – Organizations can use AWS security, identity, monitoring, governance, and hybrid cloud capabilities to meet different business and compliance requirements.
 
-Typical Enterprise Use Cases
+**Typical Enterprise Use Cases**
 
 Migrating on-premises applications and data centers to the cloud
+
 Hosting enterprise websites and business applications
+
 Building highly scalable web and mobile applications
+
 Data lakes, analytics, and business intelligence
+
 Disaster recovery and backup
+
 Artificial intelligence and machine learning workloads
+
 Hybrid cloud and multicloud architectures
