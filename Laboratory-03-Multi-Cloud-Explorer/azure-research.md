@@ -55,11 +55,11 @@ Service page: https://aws.amazon.com/lambda/
 
 ### Three Advantages
 
-Global scalability and availability – AWS provides infrastructure across multiple geographic regions and Availability Zones, allowing organizations to design resilient and scalable applications.
+1. Global scalability and availability – AWS provides infrastructure across multiple geographic regions and Availability Zones, allowing organizations to design resilient and scalable applications.
 
-Broad service selection – AWS offers services for computing, storage, databases, analytics, security, artificial intelligence, and more.
+2. Broad service selection – AWS offers services for computing, storage, databases, analytics, security, artificial intelligence, and more.
 
-Enterprise security and flexibility – Organizations can use AWS security, identity, monitoring, governance, and hybrid cloud capabilities to meet different business and compliance requirements.
+3. Enterprise security and flexibility – Organizations can use AWS security, identity, monitoring, governance, and hybrid cloud capabilities to meet different business and compliance requirements.
 
 ### Typical Enterprise Use Cases
 
