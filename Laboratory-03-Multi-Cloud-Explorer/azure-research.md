@@ -1,78 +1,75 @@
-### Amazon Web Services (AWS)
+### Microsoft Azure Research
 
 ### Brief Overview
 
-Amazon Web Services (AWS) is a cloud computing platform that provides a broad collection of services for computing, storage, databases, networking, analytics, security, and application development. AWS supports organizations ranging from startups to large enterprises and government agencies.
+Microsoft Azure is Microsoft's global cloud platform for building, deploying, and managing applications and workloads. Azure provides cloud services for computing, storage, networking, databases, analytics, artificial intelligence, security, and hybrid cloud environments.
 
-Official website: https://aws.amazon.com/
+Official website: https://azure.microsoft.com/
 
 ### Global Infrastructure
 
-AWS organizes its global infrastructure around Regions and Availability Zones (AZs). A Region is a separate geographic area, while Availability Zones are isolated locations within a Region. Each AWS Region is designed with multiple physically separated AZs connected through high-bandwidth, low-latency networking.
+Azure has a large global cloud infrastructure made up of regions, data centers, and Availability Zones. Microsoft states that Azure has 60+ regions. Availability Zones are physically separated locations within a region, and each zone is made up of one or more data centers with independent power, cooling, and networking.
 
-AWS also provides edge infrastructure, including CloudFront points of presence, Local Zones, and Wavelength Zones, to help deliver services closer to users and devices.
+This infrastructure allows organizations to deploy applications closer to users, reduce latency, support data residency requirements, and design highly available solutions.
 
-According to AWS Global Infrastructure information accessed for this research, AWS spans 39 Geographic Regions and 123 Availability Zones.
+Official infrastructure page:
+https://azure.microsoft.com/en-us/explore/global-infrastructure/
 
-Official documentation:
+Cloud Management Console
 
-https://aws.amazon.com/about-aws/global-infrastructure/
+The Azure portal is a web-based, unified management console for creating and managing Azure resources. It provides a graphical interface for deploying, monitoring, configuring, and managing resources such as virtual machines, databases, storage, and networks.
 
-https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions-availability-zones.html
+Users can also manage subscriptions, monitor costs, configure access, and use dashboards to view their cloud environment.
 
-### Cloud Management Console
-
-The AWS Management Console is a secure, web-based interface used to access and manage AWS services and resources. Users can search for services, launch resources, monitor service usage, manage billing, view account information, and customize the Console Home dashboard with widgets.
-
-Official console: https://console.aws.amazon.com/
-Console documentation: https://docs.aws.amazon.com/awsconsolehelpdocs/
+Official portal: https://portal.azure.com/
+Azure portal documentation: https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-overview
 
 ### Four Core Services
 
-1. Amazon EC2 (Elastic Compute Cloud)
+1. Azure Virtual Machines
 
-Amazon EC2 provides scalable virtual servers in the cloud. Enterprises use EC2 to host applications, websites, and business systems.
+Azure Virtual Machines provide scalable Windows and Linux virtual machines for enterprise applications, development, testing, and other workloads.
 
-Service page: https://aws.amazon.com/ec2/
+Service page: https://azure.microsoft.com/en-us/products/virtual-machines/
 
-2. Amazon S3 (Simple Storage Service)
+2. Azure Blob Storage
 
-Amazon S3 provides highly scalable object storage for files, backups, data lakes, media, and application data.
+Azure Blob Storage provides scalable object storage for large amounts of unstructured data such as documents, images, videos, backups, and logs.
 
-Service page: https://aws.amazon.com/s3/
+Service page: https://azure.microsoft.com/en-us/products/storage/blobs/
 
-3. Amazon RDS (Relational Database Service)
+3. Azure SQL Database
 
-Amazon RDS is a managed relational database service that helps organizations run database engines without managing all underlying database infrastructure.
+Azure SQL Database is a fully managed cloud database service based on Microsoft SQL Server technology.
 
-Service page: https://aws.amazon.com/rds/
+Service page: https://azure.microsoft.com/en-us/products/azure-sql/database/
 
-4. AWS Lambda
+4. Azure Functions
 
-AWS Lambda is a serverless computing service that runs code in response to events without requiring developers to manage servers.
+Azure Functions is a serverless computing service that allows developers to run event-driven code without managing server infrastructure.
 
-Service page: https://aws.amazon.com/lambda/
+Service page: https://azure.microsoft.com/en-us/products/functions/
 
 ### Three Advantages
 
-1. Global scalability and availability – AWS provides infrastructure across multiple geographic regions and Availability Zones, allowing organizations to design resilient and scalable applications.
+Strong Microsoft ecosystem integration – Azure integrates closely with Microsoft technologies and enterprise tools, including Windows Server, Active Directory, Microsoft 365, and SQL Server.
 
-2. Broad service selection – AWS offers services for computing, storage, databases, analytics, security, artificial intelligence, and more.
+Extensive global infrastructure – Azure's worldwide regions and Availability Zones help organizations deploy applications close to customers and improve resilience.
 
-3. Enterprise security and flexibility – Organizations can use AWS security, identity, monitoring, governance, and hybrid cloud capabilities to meet different business and compliance requirements.
+Hybrid cloud capabilities – Azure supports integration between cloud and on-premises environments, including management through Azure Arc and other hybrid solutions.
 
 ### Typical Enterprise Use Cases
 
-Migrating on-premises applications and data centers to the cloud
+Migrating Windows Server and SQL Server workloads to the cloud
 
-Hosting enterprise websites and business applications
+Running enterprise virtual machines and applications
 
-Building highly scalable web and mobile applications
+Hybrid cloud and on-premises integration
 
-Data lakes, analytics, and business intelligence
+Business continuity, backup, and disaster recovery
 
-Disaster recovery and backup
+Data analytics and business intelligence
 
-Artificial intelligence and machine learning workloads
+Artificial intelligence and machine learning
 
-Hybrid cloud and multicloud architectures
+Building web, mobile, and serverless applications
