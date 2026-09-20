@@ -1,6 +1,4 @@
-# Laboratory 04 - Cloud-Native Engineer
-
-## Mission Overview
+### Mission Overview
 
 This laboratory activity focused on understanding cloud-native technologies, particularly Docker containers. The mission involved comparing traditional Virtual Machines (VMs) with containers, entering a Docker-enabled cloud environment, deploying an Nginx web server, and managing the container lifecycle. The activities also provided hands-on experience with Docker commands and technical documentation using Markdown.
 
