@@ -2,12 +2,11 @@
 
 ## Docker Command
 
-```bash
 docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
 -e "MINIO_ROOT_USER=cloudadmin" \
 -e "MINIO_ROOT_PASSWORD=CloudNova2026!" \
 minio/minio server /data --console-address ":9001"
-```
+
 
 ## Web Console Port
 
@@ -22,14 +21,14 @@ The Docker command maps:
 
 The bucket created for the client photo-sharing application is:
 
-`client-photos`
+client-photos
 
 ## Environment Variables
 
 The `-e` flags define environment variables inside the MinIO container.
 
-* `MINIO_ROOT_USER=cloudadmin` sets the administrator username.
-* `MINIO_ROOT_PASSWORD=CloudNova2026!` sets the administrator password.
+* MINIO_ROOT_USER=cloudadmin` sets the administrator username.
+* MINIO_ROOT_PASSWORD=CloudNova2026!` sets the administrator password.
 
 These credentials are used to log in to the MinIO Web Console.
 
@@ -43,13 +42,4 @@ These credentials are used to log in to the MinIO Web Console.
 6. I created a bucket named `client-photos`.
 7. I uploaded a sample image/text file to the bucket.
 
-## Screenshots
-
-### MinIO Deployment
-
-![MinIO deployment](screenshots/minio-deployed.png)
-
-### Bucket and Uploaded File
-
-![MinIO bucket upload](screenshots/minio-bucket-upload.png)
 
