@@ -1,0 +1,72 @@
+# Cloud Deployment Engineer
+
+## Mission Overview
+
+This laboratory activity focuses on deploying a private cloud application using Docker and Docker Compose. The project uses Nextcloud as the web application and MariaDB as the database. Both services run in separate containers and communicate through a Docker network.
+
+## Objectives
+
+- Understand Two-Tier Architecture.
+- Create a Docker Compose configuration file.
+- Deploy Nextcloud and MariaDB as separate containers.
+- Configure environment variables for database connectivity.
+- Verify that containers are running successfully.
+- Access the Nextcloud installation page through port 8080.
+- Shut down and remove the deployed containers.
+- Document the deployment process and infrastructure configuration.
+
+## Commands Executed
+
+### Create the project directory
+
+```bash
+mkdir nextcloud-deployment
+cd nextcloud-deployment
+```
+
+### Create and view the Docker Compose file
+
+```bash
+nano docker-compose.yml
+cat docker-compose.yml
+```
+
+### Deploy the containers
+
+```bash
+docker-compose up -d
+```
+
+### Verify the running containers
+
+```bash
+docker-compose ps
+```
+
+### View container logs
+
+
+docker-compose logs
+
+
+### Shut down and remove the containers
+
+
+docker-compose down
+
+
+## Skills Learned
+
+- Understanding Two-Tier Architecture.
+- Writing and configuring YAML files.
+- Using Docker Compose to deploy multiple containers.
+- Managing Nextcloud and MariaDB containers.
+- Configuring environment variables and container networking.
+- Verifying container status and troubleshooting deployment issues.
+- Accessing a web application through a mapped port.
+- Shutting down a multi-container application safely.
+- Writing technical documentation using Markdown.
+
+## Conclusion
+
+This laboratory activity demonstrated how Docker Compose can simplify the deployment and management of a multi-container application. By separating Nextcloud and MariaDB into different containers, the application benefits from better isolation, easier maintenance, and more flexible resource management.
