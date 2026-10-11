@@ -19,41 +19,29 @@ This laboratory activity focuses on deploying a private cloud application using 
 
 ### Create the project directory
 
-```bash
 mkdir nextcloud-deployment
 cd nextcloud-deployment
-```
 
 ### Create and view the Docker Compose file
 
-```bash
 nano docker-compose.yml
 cat docker-compose.yml
-```
 
 ### Deploy the containers
 
-```bash
 docker-compose up -d
-```
 
 ### Verify the running containers
 
-```bash
 docker-compose ps
-```
 
 ### View container logs
 
-
 docker-compose logs
-
 
 ### Shut down and remove the containers
 
-
 docker-compose down
-
 
 ## Skills Learned
 
