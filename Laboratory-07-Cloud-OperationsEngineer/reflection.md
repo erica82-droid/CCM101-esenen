@@ -1,4 +1,4 @@
-# Checkpoint 7: Mission Reflection
+# Mission Reflection
 
 Throughout this laboratory, I learned the importance of monitoring server resources, analyzing application logs, and tracking container performance as a Cloud Operations Engineer.
 
